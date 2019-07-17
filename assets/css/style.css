@@ -1510,12 +1510,20 @@ form.ts-labels-inside-input .form-group label.focused,
 
 .ts-gallery {
     position: relative;
+    flex-direction: column;
+    justify-content: center;
+    width: 101%;
+    height: 101%;
 }
 
 .ts-gallery .ts-gallery__item {
     border-radius: 0;
     background-color: transparent;
-}
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 
 .ts-gallery .ts-gallery__item .ts-gallery__item-description {
     background-color: rgba(0, 0, 0, .8);
