@@ -1186,6 +1186,7 @@ blockquote h6 {
     opacity: 1;
 }
 
+
 .ts-btn-effect {
     display: inline-block;
     position: relative;
@@ -1659,7 +1660,7 @@ form.ts-labels-inside-input .form-group label.focused,
 .ts-item-header .icon .step {
     background-color: #f26c4f;
     top: 0;
-    box-shadow: .125rem .1875rem .9375rem rgba(0, 0, 0, .15);
+    box-shadow: .125rem .1875rem .9375rem rgba(255, 255, 255, 0.15);
     border-radius: 50%;
     color: #fff;
     font-weight: 600;
